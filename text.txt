@@ -1,0 +1,30 @@
+
+
+Iterator in JAVA
+- an iterator is one of the JAVA cursors.
+-JAVA iterator is an interface.
+- it is practiced in order to iterate over a collection of JAVA object components entirely one by one.
+- the JAVA iterator is also called universal cursor in JAVA.
+- JAVA iterator has four methods  ----hasNext()--next()--remove()--forEachRemaining().
+- forEachRemaining was added in JAVA 8.
+- boolean hasNext(): The method does not accept any parameter.it returns true if there are more elements left in the iteration.
+- if there are no more elements left, then it will return false.
+- if there are no more elements left in the iteration, then there is no need to call the next() method.
+- next(): it is similar to hasNext() method. it also does not accept any parameter.if the iteration of collection of object has no more elements left to iterate
+- then it throws the NoSuchElementException.
+- remove(): This method also does not require any parameters. there is no return type of this method.The main function of this method is to remove
+- the last element returned by the iterator traversing over the collection.
+- if the iterator does not support the remove operation, then it throws the UnSupportedOperationException.
+- it also throws the illegalStateException if the next method is not yet called.
+- we can only call the remove method once we call the next method.
+-always call the hasNext first then next method and use next method once.
+- To make a wrapper class we should the primitive data type but they are not object and has no methods so we should make the first letter capital
+- to change primitive data type to a wrapper class then we
+
+
+-ArrayList and LinkedList both implement list interface and maintain insertion order.
+- Both are none synchronized classes
+- arrylist is better for storing and accessing data
+-linkedlist is better for manipulating data
+-arraylist is slower and linkedlist is faster
+- arraylist is dynamic you don't need to mention the size of arrays
